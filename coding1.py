@@ -19,8 +19,10 @@ def main():
             print("Exiting the program.")
             break
 
+      # Check if the user wants to quit
         reversed_word = reverse_word(word)
         print('Below is your string in reverse:\n{}'.format(reversed_word))
 
+# Check if the script is being run as the main module
 if __name__ == "__main__":
     main()
